@@ -1,0 +1,66 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+        background-image: url(images/minimal-background-purple-color-with-two-overlapping-waves-suitable-for-design-needs-display-website-ui-and-others-free-photo.jpg);
+    }
+    
+    #pricing{
+        background-image: url(Assest/minimal-background-purple-color-with-two-overlapping-waves-suitable-for-design-needs-display-website-ui-and-others-free-photo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .pricing{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10%;
+    }
+    .plans{
+        position: relative;
+        margin: 30px;
+        width: 250px;
+        height: 450px;
+        background-color: rgb(252, 156, 255);
+        text-align: center;
+        border-radius: 20px;
+    
+    }
+    .plans h1{
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+    .plans p{
+        font-size: 1.2rem;
+    }
+    .plans:hover {
+    background-color: rgb(179, 131, 224);
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 5px 5px 20px rgb(185, 146, 199);
+    }
+    .month1 {
+    font-style: italic;
+    font-weight: bold;
+    }
+    .month2 {
+    font-style: italic;
+    font-weight: bold;
+    }
+    .month3 {
+    font-weight: bold;
+    font-style: italic;
+    }
+    .BUTTON {
+    margin-top: 130PX;
+    background-color: transparent;
+    font-size: 30px;
+    border: none;
+    font-style: italic;
+    
+    }
+    .BUTTON:hover {
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    }
